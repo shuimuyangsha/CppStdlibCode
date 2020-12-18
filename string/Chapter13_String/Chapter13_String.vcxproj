@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bdea597c-f3cf-4352-bb97-fb8b39960e6c}</ProjectGuid>
-    <RootNamespace>FunctionObjectsAndUsingLambdas</RootNamespace>
+    <ProjectGuid>{e0986ea3-2a98-4c87-8c6b-f7d2e229e173}</ProjectGuid>
+    <RootNamespace>Chapter13String</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Chapter10_FunctionObjectsAndUsingLambdas</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,10 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\bind1.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\..\..\工作资料\我的图书库\专业理论图书\C语言学习资料\C++标准库  第2版.pdf" />
+    <ClCompile Include="..\string2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
